@@ -8,7 +8,7 @@ tokenizer.fit_on_texts(samples)
 sequences = tokenizer.texts_to_sequences(samples)
 
 one_hot_results = tokenizer.texts_to_matrix(samples, mode='binary')
-#print(one_hot_results[0])
+####print(one_hot_results[0])
 word_index = tokenizer.word_index
 print(word_index)
 print('Founf %s unique tokens.' % len(word_index))
