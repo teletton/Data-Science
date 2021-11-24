@@ -5,7 +5,7 @@ train_dir = os.path.join(imdb_dir, "train")
 
 labels = []
 texts = []
-
+####
 for label_type in ['neg', 'pos']:
     dir_name = os.path.join(train_dir, label_type)
     for fname in os.listdir(dir_name):
